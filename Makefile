@@ -2,7 +2,8 @@ NAME = push_swap
 
 SRCS = push_swap.c
 
-INCLUDE = ./push_swap.h
+INCLUDE = ./push_swap.h \
+			./libft/libft.h
 
 CC = gcc
 RM = rm -f
