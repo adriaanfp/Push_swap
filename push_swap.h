@@ -64,6 +64,6 @@ t_stack_node *get_cheapest(t_stack_node *stack);
 int          syntax_error(char *str_n);
 int          duplicate_error(t_stack_node *a, int n);
 void         free_stack(t_stack_node **stack);
-void         free_errors(t_stack_node **a)
+void         free_errors(t_stack_node **a);
 
 #endif
